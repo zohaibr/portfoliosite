@@ -1,0 +1,417 @@
+.App {
+  background: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  margin-top: 10%;
+  font-family: 'Comfortaa', cursive;
+}
+
+.Navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  align-content: center;
+  top: 0;
+  background: rgb(255, 255, 255);
+  z-index: 999;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.Navbar a#pull {
+  display: none;
+}
+
+.navlist {
+  list-style: none;
+  display: flex;
+  box-sizing: border-box;
+  padding: 1.5% 5% 0 0;
+  font-size: 17px;
+}
+
+.heading {
+  padding: 2% 0 0 3.5%;
+  font-size: 25px;
+  color: rgba(0,0,0,1);
+}
+
+.navlist a {
+  text-decoration: none;
+  display: block;
+  padding: 1em;
+  color: rgba(0,0,0,1);
+}
+
+.navlist a:hover {
+  color: #82C52B;
+}
+
+.about {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  margin: 0% 10% 5% 5%;
+}
+
+.profileImg {
+  margin-left: 10%;
+  display: flex;
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  box-shadow: 0px 4px 6px 2px lightgrey;
+  align-self: center;
+}
+
+.profileName {
+  align-self: center;
+  box-sizing: border-box;
+  font-size: 20px;
+  visibility: hidden;
+}
+
+.profileText {
+  display: flex;
+  box-sizing: border-box;
+  padding: 2% 0 2% 0;
+  margin-top: auto;
+}
+
+.profileText h2 {
+  flex: 1;
+  font-size: 25px;
+}
+
+.profileText span {
+  flex: 2;
+}
+
+.languages {
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 2% 0 2% 0;
+}
+
+.languages h2 {
+  flex: 1;
+  font-size: 25px;
+}
+
+.languages ul{
+  flex: 2;
+}
+
+.technologies {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+  box-sizing: border-box;
+  padding: 2% 0 2% 0;
+}
+
+.technologies h2 {
+  flex: 1;
+  font-size: 25px;
+}
+
+.technologies ul {
+  flex: 2;
+}
+
+.technologiesList {
+  display: flex;
+  justify-content: space-between;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+}
+
+.projectHeading {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.projectList {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 5% 5% 5% 2%;
+}
+
+.eachProject {
+  display: flex;
+  flex-direction: column;
+}
+
+.eachProject span {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+  color: #82C52B;
+  font-size: 22.5px;
+}
+
+.eachProject p {
+  height: 200px;
+  width: 400px;
+  align-self: center;
+  margin-top: 5%;
+  font-family: Helvetica;
+  font-size: large;
+}
+
+.foodprintImg {
+  width: 250px;
+  height: 250px;
+  margin: 0 -5% 0 -5%;
+}
+
+.foodPrintImages {
+  display: flex;
+  justify-content: center;
+}
+
+.autoAttendanceImg{
+  width: 300px;
+  height: 250px;
+  margin-left: 12%;
+}
+
+.foodPrintlogos {
+  display: flex;
+  flex-flow: row wrap;
+  height: auto;
+  width: auto;
+  align-items: center;
+  justify-content: center;
+  padding-top: 15%;
+}
+
+.chromelogo {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.logoImage {
+  padding: 0 3% 0 3%;
+}
+
+.action_buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 5%;
+  width: auto;
+}
+
+.link-box-button {
+  border-color: black;
+  font-size: 10px;
+  padding: 10px;
+  width: 100px;
+  text-align: center;
+  border-style: solid;
+  border-width: 2px;
+  display: inline-block;
+  margin-left: 5px;
+  color: black;
+}
+
+.link-box-button:hover {
+  border-color: black;
+  background-color: black;
+  color: white;
+  transition: 0.3s all;
+}
+
+.resume{
+  display: flex;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  justify-content: center;
+  align-content: center;
+}
+
+.link-box-resume {
+  border-color: black;
+  font-size: 18px;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+  border-style: solid;
+  border-width: 2px;
+  display: inline-block;
+  margin-left: 5px;
+  color: black;
+}
+
+.link-box-resume:hover {
+  border-color: black;
+  background-color: black;
+  color: white;
+  transition: 0.3s all;
+}
+
+.presentations {
+  display: flex;
+  flex-direction: column;
+}
+
+.presentationHeading {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.presentation-list {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  margin: 5% 0% 5% 0%;
+}
+
+.presentation-link {
+  text-decoration: none;
+  color: #000; }
+
+.presentation-link .spacer-sm {
+  width: 100%; }
+
+.video-sm {
+  width: 330px;
+  height: 186px;
+  line-height: 150px;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center; }
+
+.video-sm-1 {
+  background-image: url("/img/typescript-techtalk.png");
+}
+
+.video-sm-2 {
+  background-image: url("/img/foodprintYoutube.png");
+}
+
+.video-sm-3 {
+  background-image: url("/img/stackathon.png");
+}
+
+.text-box {
+  margin: 10px 20px 10px 20px;
+}
+
+.video-text-box {
+  width: 330px;
+  height: 120px;
+  background-color: white;
+  text-align: center;
+  padding: 10px 0 10px 0;
+}
+
+.video-text-sm {
+  font-family: Helvetica;
+  font-size: 12px;
+  color: black;
+}
+
+.video-text-title {
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: black;
+  font-family: "Times New Roman";
+  font-weight: 900;
+}
+
+.video-text-title:hover {
+  color: gray;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact h2 {
+  align-self: center;
+}
+
+.contactMethods {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 2% 0% 2% 0%;
+}
+
+.footer {
+  background-color: black;
+  height: 70px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-white {
+  color: white;
+  font-size: 12px;
+  margin-top: 0.5%;
+  margin-left: 2%;
+}
+
+hr {
+  border: none;
+  border-top: 1px dotted lightgrey;
+  height: 1px;
+  color: #fff;
+  width: 100%;
+}
+
+.hideme {
+  visibility: hidden;
+}
+
+.row-grey {
+  background-color: #EBE8E8;
+  -webkit-clip-path: polygon(0 0%, 100% 4%, 100% 96%, 0% 100%);
+  clip-path: polygon(0 0%, 100% 4%, 100% 96%, 0% 100%);
+  padding: 65px 10px;
+}
+
+.row-white {
+  /*background-color: lightgrey;*/
+  /*-webkit-clip-path: polygon(0 0%, 100% 4%, 100% 96%, 0% 100%);*/
+  /*clip-path: polygon(0 8%, 100% 4%, 100% 96%, 0% 100%);*/
+  padding: 65px 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .Navbar {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    align-self: flex-end;
+  }
+
+  .heading {
+    align-self: flex-start;
+  }
+
+  .Navbar {
+    width: 100%;
+  }
+
+  .navlist {
+    display: none;
+    flex-direction: column;
+    width: 30%;
+  }
+
+}
