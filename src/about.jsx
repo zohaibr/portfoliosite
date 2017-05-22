@@ -1,5 +1,3 @@
-"use strict";
-
 import React from 'react';
 import '../public/App.css';
 import Me from '../public/img/zohaib.png';

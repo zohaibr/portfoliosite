@@ -1,5 +1,3 @@
-"use strict";
-
 import React from 'react';
 import linkedin from '../public/img/logos/linkedin.png';
 import mail from '../public/img/logos/mail.png';

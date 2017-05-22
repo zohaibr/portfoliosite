@@ -1,5 +1,3 @@
-"use strict";
-
 import React from 'react';
 import foodPrintSplash from '../public/img/landing_page_foodPrint.png';
 import foodPrintView from '../public/img/view_from_foodPrint.png';
