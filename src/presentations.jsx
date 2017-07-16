@@ -41,7 +41,7 @@ export default () => {
                         </div>
                     </div>
                 </a>
-                <a className="https://youtu.be/oWWgHvx0l2k?t=6">
+                <a className="presentation-link" href="https://youtu.be/oWWgHvx0l2k?t=6">
                     <div className="spacer-sm">
                         <div className={"video-sm video-sm-3"}></div>
                         <div className="video-text-box">

@@ -26,15 +26,16 @@ export default class extends Component {
                     <p className="heading"><a onClick={() => scroll.scrollToTop()}>Zohaib Rahman</a></p>
                     <ul className="navlist">
                         <li><ScrollLink activeClass="active" to="home" spy={true} smooth={true} duration={500}
-                                        offset={-100}>About</ScrollLink></li>
+                                        offset={-135}>About</ScrollLink></li>
                         <li><ScrollLink activeClass="active" to="projects" spy={true} smooth={true} duration={500}
-                                        offset={-20}>Projects</ScrollLink></li>
+                                        offset={-60}>Projects</ScrollLink></li>
                         <li><ScrollLink activeClass="active" to="resume" spy={true} smooth={true} duration={500}
-                                        offset={-200}>Resume</ScrollLink></li>
+                                        offset={-260}>Resume</ScrollLink></li>
                         <li><ScrollLink activeClass="active" to="presentations" spy={true} smooth={true} duration={500}
-                                        offset={-20}>Presentations</ScrollLink></li>
+                                        offset={-100}>Presentations</ScrollLink></li>
                         <li><ScrollLink activeClass="active" to="contact" spy={true} smooth={true} duration={500}>Contact</ScrollLink>
                         </li>
+
                     </ul>
                 </div>
                 <Element name="home">

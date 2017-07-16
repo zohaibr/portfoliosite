@@ -10,12 +10,12 @@ export default () => {
             <h3 className="profileName"> Zohaib Rahman </h3>
             <div className="profileText">
                 <h2>Who am I? </h2>
-                <span>Hi! I'm Zohaib Rahman a.k.a 'Zo'. I am a full stack engineer from New York City.
+                <span>Hi! I'm Zohaib Rahman. I am a full stack engineer from New York City.
                     I’ve developed through a mix of intersecting roles throughout my career in the tech industry,
-                    from Product Manager to a budding entrepreneur. Recently, I am enjoying learning about
-                Web Development and the power of creating things by your own hands.
+                    from Product Manager to a budding entrepreneur. Recently, I completed an immersive web-development
+                    bootcamp at FullStack Academy and I am enjoying building things with the new skill sets that I have acquired.
                 <br/><br/>
-                When I am not working, I like to play Tennis, travel the World, and keep up with the latest
+                When I am not working, I like to play tennis, travel the world, and keep up with the latest
                 Netflix.</span>
             </div>
             <hr/>
@@ -43,7 +43,6 @@ export default () => {
                         <li>AJAX</li>
                         <li>PostgreSQL</li>
                         <li>Sequelize</li>
-                        <li>Angular 2</li>
                     </div>
                     <div className="dayToday">
                         <h4>Day-to-day comfort</h4>
