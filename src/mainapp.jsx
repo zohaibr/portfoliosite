@@ -30,12 +30,11 @@ export default class extends Component {
                         <li><ScrollLink activeClass="active" to="projects" spy={true} smooth={true} duration={500}
                                         offset={-60}>Projects</ScrollLink></li>
                         <li><ScrollLink activeClass="active" to="resume" spy={true} smooth={true} duration={500}
-                                        offset={-260}>Resume</ScrollLink></li>
+                                        offset={-350}>Resume</ScrollLink></li>
                         <li><ScrollLink activeClass="active" to="presentations" spy={true} smooth={true} duration={500}
                                         offset={-100}>Presentations</ScrollLink></li>
-                        <li><ScrollLink activeClass="active" to="contact" spy={true} smooth={true} duration={500}>Contact</ScrollLink>
-                        </li>
-
+                        <li><ScrollLink activeClass="active" to="contact" spy={true} smooth={true} duration={500}
+                                        offset={-250}>Contact</ScrollLink></li>
                     </ul>
                 </div>
                 <Element name="home">
@@ -53,7 +52,9 @@ export default class extends Component {
                 <Element name="contact">
                     <Contact />
                 </Element>
-                <Footer />
+                <Element name="footer">
+                    <Footer />
+                </Element>
             </div>
         );
     }

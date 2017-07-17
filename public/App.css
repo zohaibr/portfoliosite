@@ -353,17 +353,19 @@
 .contact {
   display: flex;
   flex-direction: column;
+  margin-top: 10%;
 }
 
 .contact h2 {
   align-self: center;
+  height: 100px;
 }
 
 .contactMethods {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  margin: 2% 0% 2% 0%;
+  margin: 5% 0% 10% 0%;
 }
 
 .footer {
